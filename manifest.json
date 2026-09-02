@@ -1,0 +1,71 @@
+{
+  "id": "/dtmf-monteregie/",
+  "name": "BROUILLON | Trouve ta clinique — Cliniques en recrutement de la Montérégie",
+  "short_name": "PTEM 2027",
+  "description": "Trouve ta clinique — carte interactive des cliniques en recrutement de la Montérégie (Est, Centre et Ouest), selon le plan PTEM 2027. Coordonnées, horaires et personnes-ressources.",
+  "lang": "fr-CA",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f2240",
+  "theme_color": "#0f2240",
+  "categories": [
+    "medical",
+    "health",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "screenshots": [
+    {
+      "src": "./screenshot-carte.png",
+      "sizes": "1008x2072",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Carte des cliniques en recrutement, par région"
+    },
+    {
+      "src": "./screenshot-mobile.png",
+      "sizes": "824x1830",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Fiche d'une clinique : coordonnées, pratiques, horaires et personnel"
+    },
+    {
+      "src": "./screenshot-comparatif.png",
+      "sizes": "1100x900",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Comparatif des cliniques favorites, exportable en PDF"
+    }
+  ]
+}
