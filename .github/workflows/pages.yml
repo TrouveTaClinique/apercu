@@ -1,7 +1,7 @@
-﻿name: Pages placeholder
+﻿name: Publier l'aperçu
 
-# Déploiement réel : poussé depuis TrouveTaClinique.github.io (branche brouillon).
-# Ce workflow ne sert que si une page minimale est présente sur main.
+# Déclenché après chaque sync depuis TrouveTaClinique.github.io (branche brouillon).
+# Ne configure jamais trouvetaclinique.ca (apex / www).
 
 on:
   push:
@@ -21,40 +21,90 @@ jobs:
   deploy:
     if: github.repository == 'TrouveTaClinique/apercu'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Préparer un index minimal si le site n'a pas encore été synchronisé
+
+      - name: Refuser toute revendication du domaine de production
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p _site
-          if [ -f index.html ]; then
-            cp -a . _site/ 2>/dev/null || true
-            # ne copier que le nécessaire si déjà un site complet
-            rm -rf _site/.git _site/.github
-            find . -maxdepth 1 -type f -exec cp {} _site/ \;
-            for d in assets vendor amp ptem cliniques rls monteregie monteregie-est monteregie-centre monteregie-ouest; do
-              [ -d "$d" ] && cp -a "$d" _site/
-            done
-          else
-            cat > _site/index.html <<'HTML'
-<!doctype html>
-<html lang="fr-CA">
-<head>
-<meta charset="utf-8">
-<meta name="robots" content="noindex,nofollow">
-<title>BROUILLON | Aperçu Trouve ta clinique</title>
-</head>
-<body>
-<h1>Aperçu prêt</h1>
-<p>Ce dépôt recevra bientôt le site préparé depuis la branche <code>brouillon</code>.</p>
-</body>
-</html>
-HTML
+          set -euo pipefail
+          if [ -f CNAME ]; then
+            cname="$(tr -d '\r\n' < CNAME | tr '[:upper:]' '[:lower:]')"
+            case "$cname" in
+              apercu.trouvetaclinique.ca) ;;
+              trouvetaclinique.ca|www.trouvetaclinique.ca)
+                echo "CNAME de production détecté ($cname). Déploiement arrêté."
+                exit 1
+                ;;
+              *)
+                echo "CNAME inattendu ($cname). Attendu : apercu.trouvetaclinique.ca"
+                exit 1
+                ;;
+            esac
           fi
+          # Même garde-fou côté Settings Pages (API), si Pages est déjà configuré.
+          code="$(curl -sS -o /tmp/pages.json -w '%{http_code}' \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")"
+          if [ "$code" = "200" ]; then
+            api_cname="$(python3 -c 'import json; print((json.load(open("/tmp/pages.json")).get("cname") or "").strip().lower())')"
+            case "$api_cname" in
+              ''|apercu.trouvetaclinique.ca) ;;
+              trouvetaclinique.ca|www.trouvetaclinique.ca)
+                echo "Settings Pages revendique la production ($api_cname). Déploiement arrêté."
+                exit 1
+                ;;
+              *)
+                echo "Settings Pages : CNAME inattendu ($api_cname)."
+                exit 1
+                ;;
+            esac
+            build="$(python3 -c 'import json; print(json.load(open("/tmp/pages.json")).get("build_type") or "")')"
+            if [ "$build" != "workflow" ]; then
+              echo "Pages doit utiliser GitHub Actions (build_type=workflow)."
+              exit 1
+            fi
+          elif [ "$code" != "404" ]; then
+            echo "Lecture Pages refusée : HTTP $code"
+            exit 1
+          fi
+
+      - name: Assembler le site public (sans .git ni .github)
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          if [ ! -f index.html ]; then
+            echo "index.html manquant — sync brouillon pas encore reçu."
+            exit 1
+          fi
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name '_site' \
+            ! -name '.git' \
+            ! -name '.github' \
+            ! -name 'README.md' \
+            ! -name 'README-PAGES.txt' \
+            ! -name '.gitignore' \
+            -exec cp -a {} _site/ \;
+          test -f _site/index.html
+          test -f _site/.nojekyll || touch _site/.nojekyll
+          if [ -f _site/CNAME ]; then
+            grep -qx 'apercu.trouvetaclinique.ca' _site/CNAME
+          fi
+          if [ -f _site/robots.txt ]; then
+            grep -q 'Allow: /' _site/robots.txt
+            ! grep -qiE 'Disallow:|/sitemap' _site/robots.txt
+          fi
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+
       - id: deployment
         uses: actions/deploy-pages@v4
