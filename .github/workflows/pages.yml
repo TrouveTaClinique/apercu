@@ -1,0 +1,60 @@
+﻿name: Pages placeholder
+
+# Déploiement réel : poussé depuis TrouveTaClinique.github.io (branche brouillon).
+# Ce workflow ne sert que si une page minimale est présente sur main.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-apercu
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.repository == 'TrouveTaClinique/apercu'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Préparer un index minimal si le site n'a pas encore été synchronisé
+        run: |
+          mkdir -p _site
+          if [ -f index.html ]; then
+            cp -a . _site/ 2>/dev/null || true
+            # ne copier que le nécessaire si déjà un site complet
+            rm -rf _site/.git _site/.github
+            find . -maxdepth 1 -type f -exec cp {} _site/ \;
+            for d in assets vendor amp ptem cliniques rls monteregie monteregie-est monteregie-centre monteregie-ouest; do
+              [ -d "$d" ] && cp -a "$d" _site/
+            done
+          else
+            cat > _site/index.html <<'HTML'
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>BROUILLON | Aperçu Trouve ta clinique</title>
+</head>
+<body>
+<h1>Aperçu prêt</h1>
+<p>Ce dépôt recevra bientôt le site préparé depuis la branche <code>brouillon</code>.</p>
+</body>
+</html>
+HTML
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
