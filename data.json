@@ -155,7 +155,6 @@
         "nutritionnistes": "1 (à venir)",
         "intervenantspsychosociaux": "5"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -203,7 +202,6 @@
         "medecins": "15",
         "infirmieres": "3"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -255,7 +253,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -309,7 +306,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -362,7 +358,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -415,7 +410,6 @@
         "psychologues": "1",
         "travailleuresSociales": "4"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -469,7 +463,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -531,7 +524,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -581,7 +573,6 @@
         "physiotherapeutes": "1",
         "pharmaciennes": "1 (1 jour/sem)"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -633,7 +624,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -686,7 +676,6 @@
         "pharmaciennes": "2",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -738,7 +727,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -791,7 +779,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -844,7 +831,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -896,7 +882,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -947,7 +932,6 @@
         "nutritionnistes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -1001,7 +985,6 @@
         "pharmaciennes": "2",
         "travailleuresSociales": "4"
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -1032,7 +1015,7 @@
       "ville": "Beloeil",
       "lat": 45.563983,
       "lng": -73.205364,
-      "site": "https://carrefourmedical.com",
+      "site": "https://www.carrefourmedical.com/",
       "personneRessource": "michel.beaudoin.med@ssss.gouv.qc.ca",
       "responsableNom": "Dr Michel Beaudoin",
       "dme": "Myle (Medfar Solutions)",
@@ -1053,7 +1036,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -1105,7 +1087,6 @@
         "nutritionnistes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -1157,7 +1138,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -1209,7 +1189,6 @@
         "nutritionnistes": "1",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -1261,7 +1240,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -1313,7 +1291,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "",
@@ -1365,7 +1342,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -1420,7 +1396,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "",
@@ -1476,7 +1451,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -1529,7 +1503,6 @@
         "nutritionnistes": "1",
         "intervenantspsychosociaux": "3"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -1585,7 +1558,6 @@
         "psychologues": "1",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1620,7 +1592,7 @@
       "ville": "Mercier",
       "lat": 45.327518,
       "lng": -73.73496,
-      "site": "https://gmf-mercier.ca/",
+      "site": "https://gmfmercier.ca/fr/",
       "personneRessource": "",
       "dme": "",
       "horaire": {
@@ -1638,7 +1610,6 @@
         "infirmieres": "5",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1689,7 +1660,6 @@
         "ipspl": "1",
         "infirmieres": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1734,7 +1704,6 @@
         "Dimanche": "8h00 – 12h30 / 13h30 – 16h00"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1766,7 +1735,7 @@
       "ville": "Châteauguay",
       "lat": 45.358815,
       "lng": -73.718069,
-      "site": "https://www.gmfrl.com/",
+      "site": "https://gmfrl.com/",
       "personneRessource": "",
       "dme": "Medesync (Telus)",
       "horaire": {
@@ -1786,7 +1755,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1838,7 +1806,6 @@
         "ipspl": "3",
         "infirmieres": "3"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -1889,7 +1856,6 @@
         "nutritionnistes": "2",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1933,7 +1899,6 @@
         "Dimanche": "Fermé"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -1981,7 +1946,6 @@
       "personnel": {
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2027,7 +1991,6 @@
       "personnel": {
         "ipspl": "3"
       },
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2071,7 +2034,6 @@
         "Dimanche": "8h00 – 20h00"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2115,7 +2077,6 @@
         "Dimanche": "Fermé"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2159,7 +2120,6 @@
         "Dimanche": "Urgence sur RDV : 8h00 – 13h00"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2203,7 +2163,6 @@
         "Dimanche": "Urgence sur RDV seulement"
       },
       "personnel": {},
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2250,7 +2209,6 @@
       "personnel": {
         "medecins": "9"
       },
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2296,7 +2254,6 @@
       "personnel": {
         "residents": "16"
       },
-      "notes": "",
       "rls": "Champlain",
       "posApprox": false,
       "bureau": "",
@@ -2343,7 +2300,6 @@
         "medecins": "10",
         "infirmieres": "3"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -2403,7 +2359,6 @@
         "travailleuresSociales": "2",
         "pharmaciennes": "3"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -2459,7 +2414,6 @@
         "travailleuresSociales": "2",
         "pharmaciennes": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -2507,7 +2461,6 @@
         "physiotherapeutes": "1",
         "pharmaciennes": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2564,7 +2517,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -2614,7 +2566,6 @@
       "personnel": {
         "medecins": "9"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "",
@@ -2671,7 +2622,6 @@
         "nutritionnistes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2727,7 +2677,6 @@
         "physiotherapeutes": "1",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2779,7 +2728,6 @@
         "medecins": "3",
         "infirmieres": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2829,7 +2777,6 @@
         "medecins": "3",
         "infirmieres": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2883,7 +2830,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -2938,7 +2884,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -2984,7 +2929,6 @@
         "medecins": "5",
         "infirmieres": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -3039,7 +2983,6 @@
         "psychologues": "1",
         "physiotherapeutes": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau dédié ou partagé",
@@ -3091,7 +3034,6 @@
         "ipspl": "1",
         "infirmieres": "1"
       },
-      "notes": "",
       "rls": "Haut-Richelieu–Rouville",
       "posApprox": false,
       "bureau": "Bureau partagé",
@@ -3143,7 +3085,6 @@
         "pharmaciennes": "2",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -3180,7 +3121,6 @@
         "medecins": "4",
         "ipspl": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -3219,7 +3159,6 @@
         "ipspl": "2",
         "infirmieres": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -3256,7 +3195,6 @@
         "medecins": "3",
         "infirmieres": "2"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -3292,7 +3230,6 @@
       "dme": "",
       "horaire": {},
       "personnel": {},
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -3334,7 +3271,6 @@
         "ipspl": "2",
         "infirmieres": "6"
       },
-      "notes": "",
       "rls": "Jardins-Roussillon",
       "posApprox": false,
       "bureau": "",
@@ -3385,7 +3321,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3436,7 +3371,6 @@
         "infirmieres": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3480,7 +3414,6 @@
       "personnel": {
         "medecins": "5"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3531,7 +3464,6 @@
         "pharmaciennes": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3577,7 +3509,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3621,7 +3552,6 @@
       "personnel": {
         "medecins": "17"
       },
-      "notes": "Site principal; site satellite au GMF-U et CLSC de Saint-Polycarpe.",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3669,7 +3599,6 @@
       "personnel": {
         "medecins": "17"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3716,7 +3645,6 @@
       "personnel": {
         "medecins": "12"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3765,7 +3693,6 @@
         "travailleuresSociales": "3",
         "pharmaciennes": "2"
       },
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3810,7 +3737,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3852,7 +3778,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "Installation satellite du GMF-U de Vaudreuil-Soulanges (voir fiche « GMF-U de Vaudreuil-Soulanges »).",
       "rls": "Vaudreuil-Soulanges",
       "posApprox": false,
       "bureau": "",
@@ -3903,7 +3828,6 @@
         "infirmieres": "6",
         "ipspl": "4"
       },
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -3954,7 +3878,6 @@
         "infauxiliaires": "1",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -4003,7 +3926,6 @@
         "infauxiliaires": "5",
         "travailleuresSociales": "2"
       },
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -4051,7 +3973,6 @@
         "medecins": "7",
         "infirmieres": "8"
       },
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -4095,7 +4016,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -4137,7 +4057,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "du Suroît",
       "posApprox": false,
       "bureau": "",
@@ -4181,7 +4100,6 @@
       "personnel": {
         "medecins": ""
       },
-      "notes": "",
       "rls": "du Haut-Saint-Laurent",
       "posApprox": false,
       "bureau": "",
@@ -4230,7 +4148,6 @@
         "ipspl": "5",
         "travailleuresSociales": "1"
       },
-      "notes": "",
       "rls": "du Haut-Saint-Laurent",
       "posApprox": false,
       "bureau": "",
@@ -4275,7 +4192,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "du Haut-Saint-Laurent",
       "posApprox": false,
       "bureau": "",
@@ -4317,7 +4233,6 @@
         "Dimanche": ""
       },
       "personnel": {},
-      "notes": "",
       "rls": "du Haut-Saint-Laurent",
       "posApprox": false,
       "bureau": "",
@@ -4367,7 +4282,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "",
@@ -4416,7 +4330,6 @@
         "Lun. à dim. : 7 h 45 à 20 h 00"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "",
@@ -4469,7 +4382,6 @@
         "jeu. à dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "",
@@ -4517,7 +4429,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4567,7 +4478,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4620,7 +4530,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4664,7 +4573,6 @@
         "Horaire variable, voir le calendrier de la clinique"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4716,7 +4624,6 @@
         "Sam. et dim. : Fermé"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4771,7 +4678,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4822,7 +4728,6 @@
         "sam. et dim. : 8 h 30 à 12 h 30"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4871,7 +4776,6 @@
         "Mer., sam. et dim. : Fermé"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4924,7 +4828,6 @@
         "Sam., dim. et jours fériés : 8 h à 12 h et 13 h à 16 h"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -4974,7 +4877,6 @@
         "Sam. et dim. : Fermé"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5026,7 +4928,6 @@
         "jeu. à dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5077,7 +4978,6 @@
         "Sam. et dim. : 8 h à 16 h"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5129,7 +5029,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5183,7 +5082,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5234,7 +5132,6 @@
         "sam. et dim. : 8 h 00 à 12 h 00"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5286,7 +5183,6 @@
         "Dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5334,7 +5230,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Richelieu-Yamaska",
       "posApprox": false,
       "bureau": "",
@@ -5388,7 +5283,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5438,7 +5332,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5488,7 +5381,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5538,7 +5430,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5590,7 +5481,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5643,7 +5533,6 @@
         "Sam. et dim. : Fermé"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5694,7 +5583,6 @@
         "Sam. et dim. : Fermé"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5746,7 +5634,6 @@
         "ven. à dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5795,7 +5682,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5845,7 +5731,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5898,7 +5783,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -5948,7 +5832,6 @@
         "Horaire non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6003,7 +5886,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6052,7 +5934,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6103,7 +5984,6 @@
         "Autres jours : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6154,7 +6034,6 @@
         "Sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6205,7 +6084,6 @@
         "Sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6258,7 +6136,6 @@
         "Sam., dim. et jours fériés : 8 h à 12 h et 13 h à 16 h"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6308,7 +6185,6 @@
         "Autres jours : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6362,7 +6238,6 @@
         "sam. et dim. : Non disponible"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6415,7 +6290,6 @@
         "Dim. : 9 h à 13 h, un dimanche sur deux"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6468,7 +6342,6 @@
         "Sans rendez-vous : un dimanche matin sur deux"
       ],
       "personnel": {},
-      "notes": "",
       "rls": "Pierre-Boucher",
       "posApprox": false,
       "bureau": "",
@@ -6518,7 +6391,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "Bureau dédié",
@@ -6572,7 +6444,6 @@
         "pharmaciennes": "",
         "travailleuresSociales": ""
       },
-      "notes": "",
       "rls": "Pierre-De Saurel",
       "posApprox": false,
       "bureau": "Bureau dédié",
