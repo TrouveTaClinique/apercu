@@ -1565,6 +1565,10 @@ body.cmp-open { overflow:hidden; }
 /* Légende des RLS : même filet sarcelle à gauche que l'encadré de collaboration
    (27 sept. 2026). Hors du bloc SQ historique, qui reste intact. */
 :root[data-region="Est"] .rls-legend { border-left: 4px solid #08A0A0; border-radius: 8px; }
+/* Le fond clair de la barre (#F7FCFD) restait visible en mode sombre sous « Secteur d'activité »
+   (Établissements) et en filet à droite de la liste (signalé le 27 sept. 2026) : même nuit que la liste.
+   Hors du bloc SQ historique, qui reste intact. */
+:root[data-region="Est"][data-theme="sombre"] .sidebar { background: #111629; box-shadow: 9px 0 30px rgba(0,0,0,.35); }
 /* Titre de l'annonce : sarcelle foncée en mode clair (5,2:1 sur blanc au lieu de 3,2:1 ; audit du
    27 sept. 2026). En mode sombre, la sarcelle d'origine reste la plus lisible et ne change pas. */
 :root[data-region="Est"]:not([data-theme="sombre"]) .annonce-head { color: #067A7A; }
