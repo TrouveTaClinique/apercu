@@ -1619,12 +1619,7 @@ body.cmp-open { overflow:hidden; }
 <style id="cmp-orient"></style>
 <style id="repertoire-territoire-css">
 /* Annuaire sous la carte : visible aux humains (défilement) et aux robots (HTML statique).
-   Annule position:fixed / overflow:hidden des gabarits carte pour que le document défile.
-   Volontairement discret (30 sept. 2026, choix du propriétaire) : barre de défilement de la
-   page masquée, pour qu'on ne devine pas que la page continue sous la carte, et style de
-   « plan du site » en petit texte gris. Le contenu reste un vrai texte visible, pas caché. */
-html { scrollbar-width: none; }
-html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
+   Annule position:fixed / overflow:hidden des gabarits carte pour que le document défile. */
 html, body {
   position: static !important;
   inset: auto !important;
@@ -1660,21 +1655,21 @@ html, body {
   box-sizing: border-box;
   max-width: 52rem;
   margin: 0 auto;
-  padding: 1.5rem 1.25rem 2rem;
+  padding: 2rem 1.25rem 3rem;
   font-family: "Segoe UI", system-ui, sans-serif;
-  font-size: .78rem;
-  color: #64748b;
-  background: #fff;
-  line-height: 1.45;
+  color: #0f172a;
+  background: #f8fafc;
+  border-top: 4px solid #0080d7;
+  line-height: 1.5;
 }
-#repertoire-territoire h2 { font-size: .85rem; font-weight: 600; margin: 1.1rem 0 .35rem; color: #64748b; }
+#repertoire-territoire h2 { font-size: 1.15rem; margin: 1.6rem 0 .6rem; color: #170a72; }
 #repertoire-territoire > h2:first-of-type { margin-top: 0; }
-#repertoire-territoire p { margin: .4rem 0; }
-#repertoire-territoire .repertoire-liste { margin: .25rem 0 0; padding-left: 1rem; }
-#repertoire-territoire .repertoire-liste li { margin: .1rem 0; }
-#repertoire-territoire a { color: #64748b; }
-#repertoire-territoire .repertoire-meta { color: #94a3b8; font-size: .92em; }
-#repertoire-territoire .repertoire-suite { margin-top: .5rem; }
+#repertoire-territoire p { margin: .55rem 0; }
+#repertoire-territoire .repertoire-liste { margin: .4rem 0 0; padding-left: 1.2rem; }
+#repertoire-territoire .repertoire-liste li { margin: .25rem 0; }
+#repertoire-territoire a { color: #0067ad; }
+#repertoire-territoire .repertoire-meta { color: #64748b; font-size: .92em; }
+#repertoire-territoire .repertoire-suite { margin-top: .75rem; }
 </style>
 </head>
 <body>

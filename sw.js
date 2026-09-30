@@ -5,7 +5,7 @@
 'use strict';
 
 const CACHE_PREFIX = 'trouve-clinique-est-brouillon-';
-const CACHE = CACHE_PREFIX + 'v103-repertoire-discret';
+const CACHE = CACHE_PREFIX + 'v101-adresse-contact';
 const ANCIEN_PREFIX = 'ptem-2027-';
 
 /* Portée légitime de cette PWA. Toute autre portée (en pratique « / ») vient d'un
