@@ -264,8 +264,14 @@
       "secteur": "Urgence",
       "categorieActivite": "urgence",
       "abbrActivite": "URG",
-      "activites": ["urgence"],
-      "termesRecherche": ["urgence", "urgences", "mu3"],
+      "activites": [
+        "urgence"
+      ],
+      "termesRecherche": [
+        "urgence",
+        "urgences",
+        "mu3"
+      ],
       "ancre": "urgence",
       "recrutement": {
         "statutDeclare": "actif",
@@ -280,7 +286,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-002",
@@ -289,8 +298,14 @@
       "secteur": "Hospitalisation",
       "categorieActivite": "hospitalisation",
       "abbrActivite": "HOSP",
-      "activites": ["hospitalisation"],
-      "termesRecherche": ["hospitalisation", "hospitalisé", "hospitalises"],
+      "activites": [
+        "hospitalisation"
+      ],
+      "termesRecherche": [
+        "hospitalisation",
+        "hospitalisé",
+        "hospitalises"
+      ],
       "ancre": "hospitalisation",
       "recrutement": {
         "statutDeclare": "actif",
@@ -303,7 +318,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-003",
@@ -312,8 +330,14 @@
       "secteur": "Obstétrique",
       "categorieActivite": "obstetrique",
       "abbrActivite": "OBST",
-      "activites": ["obstetrique"],
-      "termesRecherche": ["obstetrique", "accouchement", "grossesse"],
+      "activites": [
+        "obstetrique"
+      ],
+      "termesRecherche": [
+        "obstetrique",
+        "accouchement",
+        "grossesse"
+      ],
       "ancre": "obstetrique",
       "recrutement": {
         "statutDeclare": "actif",
@@ -330,7 +354,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-004",
@@ -339,21 +366,31 @@
       "secteur": "UCDG",
       "categorieActivite": "ucdg",
       "abbrActivite": "UCDG",
-      "activites": ["ucdg", "geriatrie"],
-      "termesRecherche": ["ucdg", "geriatrie", "courte duree"],
+      "activites": [
+        "ucdg",
+        "geriatrie"
+      ],
+      "termesRecherche": [
+        "ucdg",
+        "geriatrie",
+        "courte duree"
+      ],
       "ancre": "ucdg",
       "recrutement": {
         "statutDeclare": "actif",
         "dateInformation": "2026-06-01",
         "besoinDeclare": "Recrutement 2027",
         "responsableNom": "Dre Marie-Pier Levreault",
-        "responsableCourriel": "marie-pier.levreault.med@ssss.gouv.qc.ca",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": []
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-005",
@@ -362,21 +399,29 @@
       "secteur": "Hôpital de jour",
       "categorieActivite": "hopital-jour",
       "abbrActivite": "HDJ",
-      "activites": ["hopital-jour"],
-      "termesRecherche": ["hopital de jour", "hdj"],
+      "activites": [
+        "hopital-jour"
+      ],
+      "termesRecherche": [
+        "hopital de jour",
+        "hdj"
+      ],
       "ancre": "hopital-de-jour",
       "recrutement": {
         "statutDeclare": "actif",
         "dateInformation": "2026-06-01",
         "besoinDeclare": "Recrutement 2027",
         "responsableNom": "Dre Marie-Pier Levreault",
-        "responsableCourriel": "marie-pier.levreault.med@ssss.gouv.qc.ca",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": []
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-006",
@@ -385,15 +430,23 @@
       "secteur": "Réadaptation",
       "categorieActivite": "readaptation",
       "abbrActivite": "RÉAD",
-      "activites": ["readaptation", "convalescence"],
-      "termesRecherche": ["readaptation", "convalescence", "urfi", "utrf"],
+      "activites": [
+        "readaptation",
+        "convalescence"
+      ],
+      "termesRecherche": [
+        "readaptation",
+        "convalescence",
+        "urfi",
+        "utrf"
+      ],
       "ancre": "readaptation",
       "recrutement": {
         "statutDeclare": "inactif",
         "dateInformation": "2026-06-01",
         "besoinDeclare": "Complet",
         "responsableNom": "Dre Marie-Pier Levreault",
-        "responsableCourriel": "marie-pier.levreault.med@ssss.gouv.qc.ca",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": [
           "Complet pour 2027."
@@ -401,7 +454,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-007",
@@ -410,8 +466,18 @@
       "secteur": "GMF-U",
       "categorieActivite": "gmf-u",
       "abbrActivite": "GMFU",
-      "activites": ["gmf-u", "enseignement", "prise-en-charge"],
-      "termesRecherche": ["gmf-u", "gmfu", "universitaire", "enseignement", "pec"],
+      "activites": [
+        "gmf-u",
+        "enseignement",
+        "prise-en-charge"
+      ],
+      "termesRecherche": [
+        "gmf-u",
+        "gmfu",
+        "universitaire",
+        "enseignement",
+        "pec"
+      ],
       "ancre": "gmf-u",
       "dme": "Medesync (Telus)",
       "recrutement": {
@@ -419,13 +485,16 @@
         "dateInformation": "2026-06-01",
         "besoinDeclare": "0 poste",
         "responsableNom": "Dre Joannie Ponton",
-        "responsableCourriel": "joannie.ponton.med@ssss.gouv.qc.ca",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": []
       },
       "enseignement": "oui",
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-008",
@@ -434,8 +503,17 @@
       "secteur": "SAD",
       "categorieActivite": "sad-siad-sp",
       "abbrActivite": "SAD",
-      "activites": ["sad-siad-sp", "soins-domicile"],
-      "termesRecherche": ["sad", "domicile", "clsc", "vallee-des-forts", "vdf"],
+      "activites": [
+        "sad-siad-sp",
+        "soins-domicile"
+      ],
+      "termesRecherche": [
+        "sad",
+        "domicile",
+        "clsc",
+        "vallee-des-forts",
+        "vdf"
+      ],
       "ancre": "soutien-a-domicile",
       "dme": "Medesync",
       "recrutement": {
@@ -451,7 +529,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-009",
@@ -460,8 +541,15 @@
       "secteur": "Clinique jeunesse",
       "categorieActivite": "clinique-jeunesse",
       "abbrActivite": "JEUN",
-      "activites": ["clinique-jeunesse"],
-      "termesRecherche": ["jeunesse", "chambly", "ados", "12-25"],
+      "activites": [
+        "clinique-jeunesse"
+      ],
+      "termesRecherche": [
+        "jeunesse",
+        "chambly",
+        "ados",
+        "12-25"
+      ],
       "ancre": "clinique-jeunesse",
       "recrutement": {
         "statutDeclare": "actif",
@@ -477,7 +565,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-010",
@@ -486,8 +577,15 @@
       "secteur": "Clinique jeunesse",
       "categorieActivite": "clinique-jeunesse",
       "abbrActivite": "JEUN",
-      "activites": ["clinique-jeunesse"],
-      "termesRecherche": ["jeunesse", "saint-jean", "12-25", "aire ouverte"],
+      "activites": [
+        "clinique-jeunesse"
+      ],
+      "termesRecherche": [
+        "jeunesse",
+        "saint-jean",
+        "12-25",
+        "aire ouverte"
+      ],
       "ancre": "clinique-jeunesse",
       "dme": "Medesync",
       "recrutement": {
@@ -495,13 +593,16 @@
         "dateInformation": "2026-06-01",
         "besoinDeclare": "1 poste, 5 jours par semaine",
         "responsableNom": "Dre Jessica Boucher",
-        "responsableCourriel": "jessicaboucher27@gmail.com",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": []
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-011",
@@ -510,8 +611,15 @@
       "secteur": "Pédiatrie sociale",
       "categorieActivite": "pediatrie-sociale",
       "abbrActivite": "PÉD",
-      "activites": ["pediatrie-sociale"],
-      "termesRecherche": ["pediatrie", "etoile", "sociale", "0-18"],
+      "activites": [
+        "pediatrie-sociale"
+      ],
+      "termesRecherche": [
+        "pediatrie",
+        "etoile",
+        "sociale",
+        "0-18"
+      ],
       "ancre": "pediatrie-sociale",
       "dme": "Myle",
       "recrutement": {
@@ -525,7 +633,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-012",
@@ -534,21 +645,32 @@
       "secteur": "CHSLD",
       "categorieActivite": "longue-duree",
       "abbrActivite": "CHSLD",
-      "activites": ["longue-duree", "chsld"],
-      "termesRecherche": ["chsld", "hebergement", "longue duree", "ppp"],
+      "activites": [
+        "longue-duree",
+        "chsld"
+      ],
+      "termesRecherche": [
+        "chsld",
+        "hebergement",
+        "longue duree",
+        "ppp"
+      ],
       "ancre": "longue-duree",
       "recrutement": {
         "statutDeclare": "actif",
         "dateInformation": "2026-06-01",
         "besoinDeclare": "2 médecins",
         "responsableNom": "Mme Noemis Bélanger",
-        "responsableCourriel": "nbelanger@chsldsainte-catherine.com",
+        "responsableCourriel": "",
         "telephone": null,
         "notesPubliques": []
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     },
     {
       "id": "SEC-C-013",
@@ -557,8 +679,17 @@
       "secteur": "CHSLD",
       "categorieActivite": "longue-duree",
       "abbrActivite": "CHSLD",
-      "activites": ["longue-duree", "chsld"],
-      "termesRecherche": ["chsld", "manoir", "soleil", "chambly", "montessori"],
+      "activites": [
+        "longue-duree",
+        "chsld"
+      ],
+      "termesRecherche": [
+        "chsld",
+        "manoir",
+        "soleil",
+        "chambly",
+        "montessori"
+      ],
       "ancre": "longue-duree",
       "recrutement": {
         "statutDeclare": "actif",
@@ -571,7 +702,10 @@
       },
       "enseignement": null,
       "regroupe": false,
-      "validation": { "etat": "source-hrr-2026", "verifieLe": "2026-09-08" }
+      "validation": {
+        "etat": "source-hrr-2026",
+        "verifieLe": "2026-09-08"
+      }
     }
   ]
 }
