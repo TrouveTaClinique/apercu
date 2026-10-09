@@ -5,22 +5,12 @@
   "dateSource": "2026-08-28",
   "meta": {
     "politiqueAffichage": {
-      "note": "Decisions d'Olivier du 2 septembre 2026. Ces regles gouvernent la projection publique ; les champs internes restent dans ce fichier pour la validation avec la personne-ressource de Sante Quebec mais ne sortent jamais dans le HTML.",
       "besoinsDichotomiques": true,
       "afficherETC": false,
       "afficherResponsableNom": true,
       "afficherResponsableCourriel": false,
-      "contactAffiche": "À venir",
-      "champsInternes": [
-        "etc",
-        "responsableNom",
-        "responsableCourriel",
-        "notesInternes",
-        "valeursSource",
-        "decision"
-      ]
+      "contactAffiche": "À venir"
     },
-    "statutValidation": "brouillon - non valide pour publication",
     "nbInstallations": 22,
     "nbSecteurs": 31,
     "categoriesActivite": [
@@ -84,14 +74,6 @@
         "libelle": "Réadaptation",
         "libelleComplet": "Réadaptation en dépendance"
       }
-    ],
-    "projectionPublique": true,
-    "champsRetires": [
-      "decision",
-      "etc",
-      "notesInternes",
-      "responsableCourriel",
-      "valeursSource"
     ]
   },
   "installations": [

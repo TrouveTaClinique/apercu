@@ -5,20 +5,14 @@
   "dateSource": "2026-06-01",
   "meta": {
     "politiqueAffichage": {
-      "note": "Recrutement HRR juin 2026. Contacts publiés comme pour les cliniques du même cycle. Téléphones d’installation seulement s’ils figurent déjà sur un site public.",
       "besoinsDichotomiques": false,
       "afficherETC": true,
       "afficherResponsableNom": true,
       "afficherResponsableCourriel": true,
-      "contactAffiche": "source",
-      "champsInternes": [
-        "notesInternes"
-      ]
+      "contactAffiche": "source"
     },
-    "statutValidation": "extrait HRR, PDF du 10 septembre 2026 (contacts non relus)",
     "nbInstallations": 8,
     "nbSecteurs": 13,
-    "sourceDocument": "Recrutement-HRR-2026_2026-09-10.pdf",
     "categoriesActivite": [
       {
         "id": "urgence",
